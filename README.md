@@ -1,6 +1,6 @@
 # Elm Brunch Starter
 
-A Brunch skeleton for Elm apps using [StartApp](https://github.com/evancz/start-app)
+A [Brunch](http://brunch.io) skeleton for [Elm](http://elm-lang.org) apps using [StartApp](https://github.com/evancz/start-app)
 
 ## Why Brunch?
 
