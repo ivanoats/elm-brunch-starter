@@ -45,7 +45,7 @@ pageHeader =
 
 pageFooter =
   footer [ ]
-    [ a [ href "https://github.com/ivanoats/elm-brunch-example"]
+    [ a [ href "https://github.com/ivanoats/elm-brunch-starter"]
         [ text "by Ivan Storck" ] ]
 
 

@@ -1,4 +1,4 @@
-# Elm Brunch Example
+# Elm Brunch Starter
 
 A Brunch skeleton for Elm apps using [StartApp](https://github.com/evancz/start-app)
 
@@ -8,7 +8,7 @@ It's fast and simple. http://brunch.io/#why
 
 ## Demo
 
-http://elm-brunch-example.aerobatic.io
+http://elm-brunch-starter.aerobatic.io
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ http://elm-brunch-example.aerobatic.io
 ## Use
 Type this to clone this repo to your own app.
 
-`brunch new gh:ivanoats/elm-brunch-example APPNAME`
+`brunch new gh:ivanoats/elm-brunch-starter APPNAME`
 
 ## Install
 

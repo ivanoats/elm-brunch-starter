@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "Elm brunch start app",
-    "repository": "https://github.com/ivanoats/elm-brunch-example.git",
+    "summary": "Elm brunch StartApp",
+    "repository": "https://github.com/ivanoats/elm-brunch-starter.git",
     "license": "MIT",
     "source-directories": [
         "."
