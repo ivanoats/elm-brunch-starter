@@ -3687,7 +3687,7 @@ Elm.Index.make = function (_elm) {
    var pageFooter = A2($Html.footer,
    _L.fromArray([]),
    _L.fromArray([A2($Html.a,
-   _L.fromArray([$Html$Attributes.href("https://github.com/ivanoats/elm-brunch-example")]),
+   _L.fromArray([$Html$Attributes.href("https://github.com/ivanoats/elm-brunch-starter")]),
    _L.fromArray([$Html.text("by Ivan Storck")]))]));
    var pageHeader = A2($Html.h1,
    _L.fromArray([]),
@@ -3695,9 +3695,11 @@ Elm.Index.make = function (_elm) {
    var view = F2(function (address,
    model) {
       return A2($Html.div,
-      _L.fromArray([$Html$Attributes.id("container")]),
+      _L.fromArray([$Html$Attributes.$class("container")]),
+      _L.fromArray([A2($Html.div,
+      _L.fromArray([$Html$Attributes.$class("row")]),
       _L.fromArray([pageHeader
-                   ,pageFooter]));
+                   ,pageFooter]))]));
    });
    var update = F2(function (action,
    model) {

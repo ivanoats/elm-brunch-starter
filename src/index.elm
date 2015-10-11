@@ -59,10 +59,10 @@ entryList entries =
 
 
 view address model =
-  div [ id "container" ]
-   [ pageHeader,
+  div [ class "container" ]
+   [ div [ class "row" ] [ pageHeader,
   --   entryList model.entries,
-     pageFooter ]
+     pageFooter ] ]
 
 
 -- main
