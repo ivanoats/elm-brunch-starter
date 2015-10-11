@@ -3686,9 +3686,12 @@ Elm.Index.make = function (_elm) {
    };
    var pageFooter = A2($Html.footer,
    _L.fromArray([]),
-   _L.fromArray([A2($Html.a,
-   _L.fromArray([$Html$Attributes.href("https://github.com/ivanoats/elm-brunch-starter")]),
-   _L.fromArray([$Html.text("by Ivan Storck")]))]));
+   _L.fromArray([A2($Html.hr,
+                _L.fromArray([]),
+                _L.fromArray([]))
+                ,A2($Html.a,
+                _L.fromArray([$Html$Attributes.href("https://github.com/ivanoats/elm-brunch-starter")]),
+                _L.fromArray([$Html.text("Made with the Elm-Brunch-Starter")]))]));
    var pageHeader = A2($Html.h1,
    _L.fromArray([]),
    _L.fromArray([$Html.text("Hello World")]));
