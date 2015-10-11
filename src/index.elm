@@ -3,17 +3,16 @@ module Index where
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import String exposing (toUpper, repeat, trimRight)
 import StartApp.Simple as StartApp
 
 -- Model
 
 initialModel = {
    entries = [
-     newEntry "Seattle"
-     newEntry "Portland"
-     newEntry "Vancouver"
-     newEntry "Eureka"
+     newEntry "Seattle" 1,
+     newEntry "Portland" 2,
+     newEntry "Vancouver" 3,
+     newEntry "Eureka" 4
    ]
   }
 
@@ -41,7 +40,7 @@ update action model =
 -- View
 
 pageHeader =
-  h1 [ ] ["Hello World" ]
+  h1 [ ] [ text "Hello World" ]
 
 
 pageFooter =

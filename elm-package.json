@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
-    "summary": "Elm buzzword bingo from Pragmatic Programmer course",
-    "repository": "https://github.com/ivanoats/elm-bingo.git",
-    "license": "BSD3",
+    "summary": "Elm brunch start app",
+    "repository": "https://github.com/ivanoats/elm-brunch-example.git",
+    "license": "MIT",
     "source-directories": [
         "."
     ],

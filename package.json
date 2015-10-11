@@ -24,5 +24,8 @@
   "devDependencies": {
     "brunch": "^1.8.5",
     "elm-brunch": "^0.3.0"
+  },
+  "dependencies": {
+    "skeleton-css": "^2.0.4"
   }
 }
