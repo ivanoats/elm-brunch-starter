@@ -1,8 +1,10 @@
-# Buzzword Bingo
+# Elm Brunch Example
 
-This is the tutorial code from the PragmaticStudio Elm course.
+A brunch skeleton for Elm apps using [StartApp](https://github.com/evancz/start-app)
 
-But instead of using Grunt, I use Brunch as the build system.
+## Why Brunch?
+
+It's fast and simple. http://brunch.io/#why
 
 ## Prerequisites
 
@@ -13,10 +15,9 @@ But instead of using Grunt, I use Brunch as the build system.
 ## Install
 
 ```
-elm package install
 npm install
 ```
 
 ## Run
 
-`brunch watch --server`
+`npm start`
