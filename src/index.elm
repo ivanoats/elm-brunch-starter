@@ -2,7 +2,6 @@ module Index where
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Events exposing (..)
 import StartApp.Simple as StartApp
 
 -- Model
@@ -35,7 +34,7 @@ update action model =
       let
         remainingEntries = List.filter (\e -> e.id /= id) model.entries
       in
-        { model | entries <- remainingEntries }
+        { model | entries = remainingEntries }
 
 -- View
 
